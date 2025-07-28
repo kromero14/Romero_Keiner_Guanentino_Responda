@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt->execute()) {
         echo "<script>
             alert('El usuario ha sido registrado correctamente como $tipo.');
-            window.location.href = 'home.php';
+            window.location.href = '../registrar_usuarios.php';
         </script>";
         exit();
     } else {
@@ -41,3 +41,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Acceso no permitido.";
 }
+?>

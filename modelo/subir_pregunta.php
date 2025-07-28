@@ -1,5 +1,6 @@
 <?php
 require "conexion.php";
+session_start();
 
 // Verifica que la petición sea POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -52,9 +53,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     );
 
     if ($stmt->execute()) {
+        $id_pregunta = $stmt->insert_id;
         echo "<script>
-            alert('¡Pregunta registrada correctamente!');
-            window.location.href = 'home.php';
+            window.location.href = '../crear_opciones.php?id_pregunta=$id_pregunta';
         </script>";
         exit();
     } else {

@@ -1,2 +1,1 @@
-# Romero_Keiner_Guanentino_Responda
-Nueva version Guanentino Responda
+# guanentino_responda

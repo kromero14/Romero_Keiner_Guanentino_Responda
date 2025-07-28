@@ -17,7 +17,7 @@
     {
         $_SESSION['username'] = $usuario;
         //redirigir el usuario a su pagina
-        header("location: ../registrar_pregunta.php");
+        header("location: ../home_digitador.php");
 
         /*echo "El usuario existe en la BD <br>";
         echo $resultado ['email'];*/
