@@ -26,9 +26,15 @@ $nombre = $_SESSION['nombre'];
     </a>
     
     <br><br>
+    <a href="modelo/consultas.php">
+        <button type = "submit">Hacer sus consultas</button>
+    </a>
+
+    <br><br>
     <a href="./crear_pregunta.php">
         <button type = "submit">Registrar una nueva pregunta</button>
     </a>
+
 
     <br><br>
     <a href="modelo/cerrar_sesion.php">
