@@ -7,7 +7,7 @@
     define('USER', 'root'); //  Crea la constante USER con valor 'root'
     define('PW', '');
     define('HOST', 'localhost');
-    define('BD', 'guanentino_responda');
+    define('BD', 'guanentino_responda (4)');
 
     // Parametros BD remota (infinityfree)
     /*define('USER', 'if0_38194745'); 

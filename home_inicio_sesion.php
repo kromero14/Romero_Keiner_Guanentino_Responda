@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Guanentino, responda!</title>
+
     <center>
         <h1>Bienvenido a ¡Guanentino, Responda!</h1>
+        <link rel="stylesheet" href="style.css">
         <h3>Inicio de sesión</h3>
         <br><br>
         <a href="modelo/login_admin.php">

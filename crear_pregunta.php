@@ -24,6 +24,7 @@
 </head>
 <body>
     <h1>Aquí puedes subir una pregunta a nuestra base de datos</h1>
+        <link rel="stylesheet" href="style.css">
     <br><br>
     <form action="modelo/subir_pregunta.php" method="POST">
         <label for="">Competencia: </label>
